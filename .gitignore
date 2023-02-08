@@ -1,5 +1,6 @@
 # no images, large text files,
 *.png
+*.jpeg
 *.pdf
 *.docx
 *.idea/
