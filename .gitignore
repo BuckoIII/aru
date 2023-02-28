@@ -1,11 +1,12 @@
 # no images, large text files,
 *.png
-*.jpeg
+*.jpg
 *.pdf
 *.docx
 *.idea/
 *.csv
 *.json
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
