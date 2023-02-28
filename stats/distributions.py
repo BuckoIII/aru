@@ -9,12 +9,13 @@ import numpy as np
 from scipy.stats import binom
 from scipy.stats import hypergeom
 from scipy.stats import poisson
+from scipy.stats import norm
 
 
 # Binomial Distribution in Python
 questions = []
-answers = []
 
+answers = []
 # Q1
 k, n, p = 4, 5, 0.5
 ans1 = binom.pmf(k=k, n=n, p=p)
@@ -338,3 +339,28 @@ print('poisson distribution questions:', dict(zip(p_questions, p_answers)))
 
 
 # normal distribution
+
+# earnings surprise example
+surprise = [11.36,7.89,1.96,0,-3.12,-9.52]
+def std(arr:list) -> list:
+    print(arr)
+
+print(std(surprise))
+# n_questions = []
+# n_answers = []
+#
+#
+# mu = np.mean(surprise)
+# std = np.std(surprise)
+# z = (mu - 11.36) / std
+#
+# print(mu, std, z)
+#
+# n_answers.append(round(ans, 4))
+# n_questions.append('exp')
+#
+#
+# # calculating z-scores
+#
+# print('normal distribution questions:', dict(zip(n_questions, n_answers)))
+#
